@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NHD_NHD")(type "KiCad")(uri "${KIPRJMOD}/NHD_NHD.kicad_sym")(options "")(descr ""))
+  (lib (name "SSG_RFID")(type "KiCad")(uri "${KIPRJMOD}/SSG_RFID.kicad_sym")(options "")(descr ""))
+)
