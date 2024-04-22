@@ -2621,7 +2621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -2823,7 +2823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Custom:SW_BUTT-2"
 			(at 181.61 64.77 0)
 			(effects
 				(font
@@ -3027,7 +3027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x30_P1.27mm_Horizontal"
+		(property "Footprint" "Custom:NHD"
 			(at 128.778 14.986 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Custom:SW_BUTT-2"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -3260,7 +3260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Custom:SW_BUTT-2"
 			(at 198.12 68.58 0)
 			(effects
 				(font
@@ -3597,7 +3597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Custom:SW_BUTT-2"
 			(at 134.62 171.45 0)
 			(effects
 				(font
@@ -3731,7 +3731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Custom:SW_BUTT-2"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -4065,7 +4065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Custom:SW_BUTT-2"
 			(at 104.14 171.45 0)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "113990105:NodeMCU"
+		(property "Footprint" "Custom:NodeMCU"
 			(at 166.37 113.03 0)
 			(effects
 				(font
@@ -4494,7 +4494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 106.68 62.23 0)
 			(effects
 				(font
