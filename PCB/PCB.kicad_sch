@@ -2585,7 +2585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 60.96 58.42 0)
 			(effects
 				(font
@@ -2704,7 +2704,7 @@
 		(fields_autoplaced yes)
 		(uuid "20c04b67-c461-4eea-bf93-32c5fe21ed49")
 		(property "Reference" "R2"
-			(at 111.76 165.0999 0)
+			(at 111.76 165.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,8 +2712,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 111.76 167.6399 0)
+		(property "Value" "~"
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 107.442 166.37 90)
 			(effects
 				(font
@@ -2771,17 +2771,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "253204c9-e261-4366-b4ca-9e4bef82adf1")
 		(property "Reference" "SW1"
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -2789,7 +2780,15 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "~"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjektMetoder:Button_6mm_6mm_5mm_2pin"
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -2842,7 +2841,7 @@
 		(fields_autoplaced yes)
 		(uuid "25e79cef-c38b-4840-b26a-f1eef11355d2")
 		(property "Reference" "R3"
-			(at 127 165.0999 0)
+			(at 127 165.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,8 +2849,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 127 167.6399 0)
+		(property "Value" "~"
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 122.682 166.37 90)
 			(effects
 				(font
@@ -3076,22 +3075,22 @@
 		(dnp no)
 		(uuid "33e15440-a5dc-4278-93db-c37da283be44")
 		(property "Reference" "SW6"
-			(at 148.59 176.53 0)
+			(at 158.75 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 151.13 175.26 0)
+		(property "Value" "~"
+			(at 149.86 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjektMetoder:Button_6mm_6mm_5mm_2pin"
 			(at 151.13 175.26 0)
 			(effects
 				(font
@@ -3208,17 +3207,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "531a77bc-bd4a-49e2-88a8-76ad3e01985f")
 		(property "Reference" "SW2"
-			(at 210.82 66.04 0)
+			(at 210.82 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "~"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -3226,7 +3224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjektMetoder:Button_6mm_6mm_5mm_2pin"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -3279,7 +3277,7 @@
 		(fields_autoplaced yes)
 		(uuid "56efdf0f-68a7-4822-88cc-8a184b7c479c")
 		(property "Reference" "R1.4"
-			(at 158.75 146.0499 0)
+			(at 158.75 146.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,8 +3285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 158.75 148.5899 0)
+		(property "Value" "~"
+			(at 158.75 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 154.432 147.32 90)
 			(effects
 				(font
@@ -3349,7 +3347,7 @@
 		(fields_autoplaced yes)
 		(uuid "62fcb787-8a05-4e5b-95e9-609295b13380")
 		(property "Reference" "R5"
-			(at 158.75 165.0999 0)
+			(at 158.75 165.7349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,8 +3355,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 158.75 167.6399 0)
+		(property "Value" "~"
+			(at 158.75 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 154.432 166.37 90)
 			(effects
 				(font
@@ -3492,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "~"
 			(at 142.24 167.6399 0)
 			(effects
 				(font
@@ -3501,7 +3499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 137.922 166.37 90)
 			(effects
 				(font
@@ -3685,14 +3683,14 @@
 		(dnp no)
 		(uuid "892e3274-2dd0-4602-bc2e-7c182ac69dcf")
 		(property "Reference" "SW5"
-			(at 132.08 168.91 0)
+			(at 142.24 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "~"
 			(at 134.62 175.26 0)
 			(effects
 				(font
@@ -3700,7 +3698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjektMetoder:Button_6mm_6mm_5mm_2pin"
 			(at 134.62 175.26 0)
 			(effects
 				(font
@@ -3818,14 +3816,14 @@
 		(dnp no)
 		(uuid "8bdb40ca-4aa1-4887-9f4f-0a2c8434eda8")
 		(property "Reference" "SW4"
-			(at 119.38 167.64 0)
+			(at 126.746 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "~"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -3833,7 +3831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjektMetoder:Button_6mm_6mm_5mm_2pin"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -4022,7 +4020,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8734105-6357-4c45-a0f2-8fe425a4d234")
 		(property "Reference" "R1.2"
-			(at 127 146.0499 0)
+			(at 127 146.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,8 +4028,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 127 148.5899 0)
+		(property "Value" "~"
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 122.682 147.32 90)
 			(effects
 				(font
@@ -4158,22 +4156,24 @@
 		(fields_autoplaced yes)
 		(uuid "b66b140c-8cd3-401e-9ef1-35e02add991d")
 		(property "Reference" "SW3"
-			(at 101.6 175.26 0)
+			(at 110.49 174.6249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 104.14 175.26 0)
+		(property "Value" "~"
+			(at 110.49 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjektMetoder:Button_6mm_6mm_5mm_2pin"
 			(at 104.14 175.26 0)
 			(effects
 				(font
@@ -4233,7 +4233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "~"
 			(at 111.76 148.5899 0)
 			(effects
 				(font
@@ -4242,7 +4242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 107.442 147.32 90)
 			(effects
 				(font
@@ -4375,7 +4375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose:Hirose_DF63M-4P-3.96DSA_1x04_P3.96mm_Vertical"
 			(at 56.388 135.636 0)
 			(effects
 				(font
@@ -4451,12 +4451,13 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Module:Arduino_Nano_WithMountingHoles"
 			(at 166.37 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4603,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -4722,7 +4723,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee72687d-0786-4ddd-bb40-c7e4043e744e")
 		(property "Reference" "R1.3"
-			(at 142.24 146.0499 0)
+			(at 142.24 146.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,8 +4731,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 142.24 148.5899 0)
+		(property "Value" "~"
+			(at 142.24 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 137.922 147.32 90)
 			(effects
 				(font
