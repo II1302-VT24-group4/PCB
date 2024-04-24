@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BZ1,Buzzer_12x9.5RM7.6,1,Buzzer,
+D1,LED_D5.0mm,1,RED,
+D2,LED_D5.0mm,1,GREEN,
+EM4100,NS-Tech_Grove_1x04_P2mm_Vertical,1,~,
+NHD,NHD,1,~,
+R1,1206,1,550,
+R2,1206,1,"2,2k",
+R3,1206,1,10k,
+R4,1206,1,"4,7k",
+R5,1206,1,100,
+"SW1, SW2, SW3, SW4, SW5, SW6",SW_BUTT-2,6,SW_Push,
+U1,NodeMCU,1,NodeMCU_1.0_(ESP-12E),
