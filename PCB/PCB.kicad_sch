@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Meeting display")
-		(date "2024-04-24")
+		(date "2024-04-25")
 		(rev "0.3")
 		(company "KTH")
 		(comment 2 "gnu.org/licenses/gpl-3.0")
@@ -2526,6 +2526,12 @@
 		(uuid "8363916f-7def-453e-9035-47d32016e9e0")
 	)
 	(junction
+		(at 160.02 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "858822b5-f0af-47fb-98c3-b6a856ac38e9")
+	)
+	(junction
 		(at 86.36 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2542,12 +2548,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5df1078-2c11-4bd9-9ed5-1358a9b43ee2")
-	)
-	(junction
-		(at 165.1 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce7102f0-be3d-40b7-8a0e-d30b04208b4f")
 	)
 	(junction
 		(at 102.87 76.2)
@@ -2627,23 +2627,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 204.47 100.33)
+			(xy 182.88 100.33) (xy 204.47 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1227727f-2eca-46cb-90d3-e79749438cbe")
-	)
-	(wire
-		(pts
-			(xy 165.1 67.31) (xy 165.1 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1436d8f2-e089-4def-8768-af2a8adc126d")
 	)
 	(wire
 		(pts
@@ -2654,16 +2644,6 @@
 			(type default)
 		)
 		(uuid "1818ebd5-1d1f-4b83-9cb9-68be09c5ed30")
-	)
-	(wire
-		(pts
-			(xy 165.1 66.04) (xy 160.02 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1937610d-efe3-41d3-8adf-5117ee3e72ba")
 	)
 	(wire
 		(pts
@@ -2797,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 99.06) (xy 184.15 100.33)
+			(xy 182.88 99.06) (xy 182.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 160.02 77.47)
+			(xy 160.02 63.5) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3044,6 +3024,16 @@
 			(type default)
 		)
 		(uuid "c003c028-95db-45bf-a2f8-f84370daf9c9")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6aac9ba-d010-41bf-918b-795cf333a8f2")
 	)
 	(wire
 		(pts
@@ -4755,71 +4745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 165.1 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34fcb96f-7c04-45ae-93a0-3efca80825d0")
-		(property "Reference" "#FLG02"
-			(at 165.1 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 168.656 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b233d1df-7d81-44b7-b9cf-3028c4755abe")
-		)
-		(instances
-			(project "PCB"
-				(path "/95b5e99e-302e-4222-afa1-0faa09b15eb9"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 63.5 63.5 0)
 		(unit 1)
@@ -5189,7 +5114,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 77.47 0)
+		(at 162.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5197,7 +5122,7 @@
 		(dnp no)
 		(uuid "57a8df8e-cc69-4a86-ad05-daecb2879b34")
 		(property "Reference" "#PWR018"
-			(at 162.56 81.28 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5131,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 71.882 90)
+			(at 162.56 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 77.47 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 77.47 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 77.47 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5378,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 184.15 96.52 0)
+		(at 182.88 96.52 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5461,7 +5386,7 @@
 		(dnp no)
 		(uuid "6cb4b9ec-de7a-4887-935e-200d9ea1531b")
 		(property "Reference" "H1"
-			(at 186.69 93.9799 0)
+			(at 185.42 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5395,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 186.69 96.5199 0)
+			(at 185.42 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5404,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 184.15 96.52 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 96.52 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5422,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 184.15 96.52 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 246.38 82.55 0)
 			(effects
 				(font
@@ -6513,7 +6438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 224.79 85.09 0)
 			(effects
 				(font
@@ -6960,8 +6885,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb4d4d88-01d1-495d-877e-54a1e0e8f252")
+		(property "Reference" "#FLG02"
+			(at 160.02 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.83 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04205d4e-6ed6-487f-a175-7dfa7ce9266c")
+		)
+		(instances
+			(project "PCB"
+				(path "/95b5e99e-302e-4222-afa1-0faa09b15eb9"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 165.1 66.04 90)
+		(at 160.02 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6969,7 +6959,7 @@
 		(dnp no)
 		(uuid "d056e575-00d9-47df-aa81-dd21bebd1d09")
 		(property "Reference" "#PWR02"
-			(at 171.45 66.04 0)
+			(at 166.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +6968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 66.04 90)
+			(at 165.1 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 66.04 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 66.04 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +6994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 66.04 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +7530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 204.47 90.17 0)
 			(effects
 				(font
