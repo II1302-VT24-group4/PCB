@@ -2827,16 +2827,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 80.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e4f4e9-3fec-44d8-85df-9c7b971f8f6d")
-	)
-	(wire
-		(pts
 			(xy 102.87 76.2) (xy 102.87 73.66)
 		)
 		(stroke
@@ -2884,6 +2874,16 @@
 			(type default)
 		)
 		(uuid "90d71394-33ce-4ea1-b6e2-1a75ab57d782")
+	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99df8a66-a0c3-434a-8d33-6c67efca34fa")
 	)
 	(wire
 		(pts
@@ -5478,7 +5478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 184.15 96.52 0)
 			(effects
 				(font
